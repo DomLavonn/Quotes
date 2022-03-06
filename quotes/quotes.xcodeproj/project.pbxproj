@@ -17,6 +17,7 @@
 		D14D05FF27D43C71006A9D2D /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14D05FE27D43C71006A9D2D /* DataService.swift */; };
 		D14D060127D45B20006A9D2D /* QuoteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14D060027D45B20006A9D2D /* QuoteDetailView.swift */; };
 		D14D060327D4617D006A9D2D /* QuoteMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14D060227D4617D006A9D2D /* QuoteMainView.swift */; };
+		D1936F3327D52EAC006A49DC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1936F3227D52EAC006A49DC /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		D14D05FE27D43C71006A9D2D /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		D14D060027D45B20006A9D2D /* QuoteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteDetailView.swift; sourceTree = "<group>"; };
 		D14D060227D4617D006A9D2D /* QuoteMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteMainView.swift; sourceTree = "<group>"; };
+		D1936F3227D52EAC006A49DC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				D14D05E727D42AAE006A9D2D /* QuoteView.swift */,
 				D14D060027D45B20006A9D2D /* QuoteDetailView.swift */,
 				D14D060227D4617D006A9D2D /* QuoteMainView.swift */,
+				D1936F3227D52EAC006A49DC /* MainView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D14D060327D4617D006A9D2D /* QuoteMainView.swift in Sources */,
+				D1936F3327D52EAC006A49DC /* MainView.swift in Sources */,
 				D14D060127D45B20006A9D2D /* QuoteDetailView.swift in Sources */,
 				D14D05E827D42AAE006A9D2D /* QuoteView.swift in Sources */,
 				D14D05FB27D43B46006A9D2D /* Quote.swift in Sources */,

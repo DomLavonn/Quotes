@@ -13,20 +13,18 @@ struct QuoteView: View {
     
     var body: some View {
         
-        NavigationView {
-
-        ScrollView{
-            
-                ForEach(quotes.quotes){ item in
-                   
-                    NavigationLink(destination: QuoteDetailView(quote: item), label:{
-                        QuoteMainView(quote: item)
-                    })
-                        
-                    }
-        
-        }.navigationBarTitle("Quotes")
-        }
+            NavigationView {
+             
+            ScrollView{
+                    ForEach(quotes.quotes){ item in
+                       
+                        NavigationLink(destination: QuoteDetailView(quote: item), label:{
+                            QuoteMainView(quote: item)
+                        })
+                            
+                        }
+            }.navigationBarTitle("Quotes")
+            }
     }
 }
 
