@@ -12,6 +12,11 @@
 		D14D05EA27D42AB1006A9D2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D14D05E927D42AB1006A9D2D /* Assets.xcassets */; };
 		D14D05ED27D42AB1006A9D2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D14D05EC27D42AB1006A9D2D /* Preview Assets.xcassets */; };
 		D14D05F927D42EB1006A9D2D /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = D14D05F827D42EB1006A9D2D /* quotes.json */; };
+		D14D05FB27D43B46006A9D2D /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14D05FA27D43B46006A9D2D /* Quote.swift */; };
+		D14D05FD27D43C63006A9D2D /* QuoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14D05FC27D43C63006A9D2D /* QuoteModel.swift */; };
+		D14D05FF27D43C71006A9D2D /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14D05FE27D43C71006A9D2D /* DataService.swift */; };
+		D14D060127D45B20006A9D2D /* QuoteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14D060027D45B20006A9D2D /* QuoteDetailView.swift */; };
+		D14D060327D4617D006A9D2D /* QuoteMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14D060227D4617D006A9D2D /* QuoteMainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +26,11 @@
 		D14D05E927D42AB1006A9D2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D14D05EC27D42AB1006A9D2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D14D05F827D42EB1006A9D2D /* quotes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = quotes.json; sourceTree = "<group>"; };
+		D14D05FA27D43B46006A9D2D /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		D14D05FC27D43C63006A9D2D /* QuoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteModel.swift; sourceTree = "<group>"; };
+		D14D05FE27D43C71006A9D2D /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		D14D060027D45B20006A9D2D /* QuoteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteDetailView.swift; sourceTree = "<group>"; };
+		D14D060227D4617D006A9D2D /* QuoteMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteMainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +86,7 @@
 		D14D05F327D42B63006A9D2D /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D14D05FA27D43B46006A9D2D /* Quote.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -84,6 +95,8 @@
 			isa = PBXGroup;
 			children = (
 				D14D05E727D42AAE006A9D2D /* QuoteView.swift */,
+				D14D060027D45B20006A9D2D /* QuoteDetailView.swift */,
+				D14D060227D4617D006A9D2D /* QuoteMainView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -91,6 +104,7 @@
 		D14D05F527D42B78006A9D2D /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				D14D05FC27D43C63006A9D2D /* QuoteModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -98,6 +112,7 @@
 		D14D05F627D42B9D006A9D2D /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				D14D05FE27D43C71006A9D2D /* DataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -181,8 +196,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D14D060327D4617D006A9D2D /* QuoteMainView.swift in Sources */,
+				D14D060127D45B20006A9D2D /* QuoteDetailView.swift in Sources */,
 				D14D05E827D42AAE006A9D2D /* QuoteView.swift in Sources */,
+				D14D05FB27D43B46006A9D2D /* Quote.swift in Sources */,
+				D14D05FD27D43C63006A9D2D /* QuoteModel.swift in Sources */,
 				D14D05E627D42AAE006A9D2D /* quotesApp.swift in Sources */,
+				D14D05FF27D43C71006A9D2D /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

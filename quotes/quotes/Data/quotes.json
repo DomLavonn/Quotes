@@ -5,7 +5,9 @@
             "Throughout life people will make you mad, disrespect you and treat you bad. Let God deal with the things they do, cause hate in your heart will consume you too.",
             "Fear is not real. It is a product of thoughts you create. Do not misunderstand me. Danger is very real. But fear is a choice.",
             "We spend money that we do not have, on things we do not need, to impress people who do not care."
-        ]
+        ],
+        "image": "ambition"
+
 
     },
 
@@ -14,21 +16,24 @@
         "quotes": ["The good thing about science is that it's true whether or not you believe in it.",
             "For me, I am driven by two main philosophies: know more today about the world than I knew yesterday and lessen the suffering of others. You'd be surprised how far that gets you.",
             "We are all connected; To each other, biologically. To the earth, chemically. To the rest of the universe atomically."
-        ]
+        ],
+        "image": "focus"
+
 
     },
     {
         "name": "Kevin Hart",
         "quotes": ["You get one life. I'm going to embrace mine.",
             "The whole secret of life is to be interested in one thing profoundly and in a thousand things well."
-        ]
+        ],
+        "image": "calm"
 
     },
 
     {
         "name": "Domanik johnson",
-        "quotes": []
-
+        "quotes": [],
+        "image": "reflect2"
     },
 
     {
@@ -37,7 +42,8 @@
             "In a gentle way, you can shake the world.",
             "The greatness of a nation and its moral progress can be judged by the way its animals are treated.",
             "An ounce of patience is worth more than a tonne of preaching"
-        ]
+        ],
+        "image": "reflect"
 
     }
 ]

@@ -8,9 +8,25 @@
 import SwiftUI
 
 struct QuoteView: View {
+    
+@ObservedObject var quotes = QuoteModel()
+    
     var body: some View {
-        Text("Hellhho, world!")
-            .padding()
+        
+        NavigationView {
+
+        ScrollView{
+            
+                ForEach(quotes.quotes){ item in
+                   
+                    NavigationLink(destination: QuoteDetailView(quote: item), label:{
+                        QuoteMainView(quote: item)
+                    })
+                        
+                    }
+        
+        }.navigationBarTitle("Quotes")
+        }
     }
 }
 
